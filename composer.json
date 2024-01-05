@@ -1,0 +1,16 @@
+{
+    "name": "root/www",
+    "autoload": {
+        "psr-4": {
+            "Core\\Framework\\": "framework/",
+            "App\\": "app/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.0",
+        "laravel/pint": "^1.5"
+    },
+    "require": {
+        "nikic/fast-route": "^1.3"
+    }
+}
